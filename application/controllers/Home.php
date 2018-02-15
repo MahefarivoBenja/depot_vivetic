@@ -21,6 +21,7 @@
                 'theme/dropzone/css/dropzone',
                 'theme/dropzone/css/basic',
                 'theme/toastr-master/toastr',
+                'css/font-awesome-animation',
                 'css/style'
             );
             $foot['js'] = array(

@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6410c335-dded-456a-bbf1-325b55970669" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/custom_js/save_in_database.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Nouveau dossier/20170619 SFD DSI Gestion remontées toosla v1 .docx" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Home.php" afterPath="$PROJECT_DIR$/application/controllers/Home.php" />
-    </list>
+    <list default="true" id="6410c335-dded-456a-bbf1-325b55970669" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,8 +25,8 @@
       <file leaf-file-name="depot.js" pinned="true" current-in-tab="true">
         <entry file="remoteDeploymentFS://&lt;56246fe3-8526-4d00-a15c-8859ac89d9b3&gt;/assets/js/custom_js/depot.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="33" column="51" lean-forward="true" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
+            <state relative-caret-position="380">
+              <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -231,12 +226,12 @@
       <workItem from="1518589862301" duration="120000" />
       <workItem from="1518589983463" duration="1745000" />
       <workItem from="1518591889084" duration="20163000" />
-      <workItem from="1518672225391" duration="26806000" />
+      <workItem from="1518672225391" duration="27788000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109817000" />
+    <option name="totallyTimeSpent" value="110799000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1010" extended-state="6" />

@@ -30,7 +30,8 @@
                 'theme/dropzone/dropzone',
                 'js/respond.min',
                 'theme/toastr-master/toastr',
-                'js/custom_js/custom_dropzone'
+                'js/custom_js/custom_dropzone',
+                'js/custom_js/depot'
             );
 
             $data['title'] = "DEPOT VIVETIC";

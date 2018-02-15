@@ -1,3 +1,5 @@
+listFileTemp = [];
+;
 Dropzone.options.depot = {
 
     dictDefaultMessage: "<i class=\"fa fa-cloud-upload faa-float animated fa-4x\" aria-hidden=\"true\"></i><h5><b>Déposer ou cliquer pour ajouter</b></h5>",
@@ -5,14 +7,12 @@ Dropzone.options.depot = {
     maxFilesize: 20,
     paramName: "file",
     maxFilesize: 20,
-    maxfilesexceeded:function () {
-      alert('xxxxx');
-    },
     dictRemoveFile: 'Supprimer',
     init: function() {
 
         var myDropzone = this;
         var listFile = [];
+        $('.allfile').hide();
         $("#upload_button").click(function() {
             /*remove all files in form '#id'*/
 
@@ -34,7 +34,12 @@ Dropzone.options.depot = {
                     }
 
                 }
+                $('.allfile').show();
                 /*alert(_i);*/
+            }
+            else
+            {
+                $('.allfile').hide();
             }
 
         });
@@ -57,6 +62,10 @@ Dropzone.options.depot = {
                 data : 'myfile=' + listFile[file.upload.filename],
                 dataType : 'text'
             });
+            if (!this.files.length)
+            {
+                $('.allfile').hide(); 
+            }
 
 
         });
@@ -70,7 +79,7 @@ Dropzone.options.depot = {
                 Command: toastr['error']("Erreur de notre serveur.");
                 return false;
             }
-
+            listFileTemp = listFile;
             /*console.log("file.name : "+file.name+"response : "+response);*/
         });
 

@@ -17,7 +17,7 @@ if ( ! function_exists('assets_url'))
 			foreach ($array_file as $valuejs)
 			{
 				$res .= "
-					<script src='".base_url("assets/".$valuejs.".js")."?".$timenow."' ></script>
+					<script src='".base_url("assets/".$valuejs.".js")."?v=".$timenow."' ></script>
 				";
 			}
 		}
@@ -26,7 +26,7 @@ if ( ! function_exists('assets_url'))
 			foreach ($array_file as $valuejs)
 			{
 				$res .= "
-					<link rel='stylesheet' href='".base_url("assets/".$valuejs.".css")."?".$timenow."' />
+					<link rel='stylesheet' href='".base_url("assets/".$valuejs.".css")."?v=".$timenow."' />
 				";
 			}
 		}

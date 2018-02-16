@@ -1,3 +1,10 @@
+<?php
+    $theme_opt = "";
+    foreach ($theme as $value_theme)
+    {
+        $theme_opt .='<option value="'.$value_theme->id_theme.'">'.$value_theme->nom_theme.'</option>';
+    }
+?>
 <!-- page start-->
 <section class="panel">
     <header class="panel-heading">
@@ -41,7 +48,8 @@
                     <label class="control-label col-md-6">&nbsp;Thème :&nbsp;</label>
                     <div class="controls col-md-12">
                         <select class="form-control input-sm m-bot15" id="slct_thm_modal_upload">
-                            <option value="1">Aucun</option><option value="8">CLASSEMENT</option><option value="9">SAISIE</option>							</select>
+                            <?php echo $theme_opt; ?>
+                        </select>
                     </div>
                 </div>
             </div>
@@ -50,7 +58,7 @@
                     <label class="control-label col-md-6">&nbsp;Typologie :&nbsp;</label>
                     <div class="controls col-md-12">
                         <select class="form-control input-sm m-bot15" id="slct_typo_modal_upload" readonly="true">
-                            <option value="9">Dépôt</option>
+                            <option value="18">DEPOT</option>
                         </select>
                     </div>
                 </div>

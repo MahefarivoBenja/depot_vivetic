@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6410c335-dded-456a-bbf1-325b55970669" name="Default" comment="phpstorm">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="6410c335-dded-456a-bbf1-325b55970669" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +28,7 @@
         <entry file="remoteDeploymentFS://&lt;56246fe3-8526-4d00-a15c-8859ac89d9b3&gt;/assets/js/custom_js/depot.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="554">
-              <caret line="92" column="1" lean-forward="false" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
+              <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -262,7 +260,7 @@
       <workItem from="1518589983463" duration="1745000" />
       <workItem from="1518591889084" duration="20163000" />
       <workItem from="1518672225391" duration="27788000" />
-      <workItem from="1518756982135" duration="14534000" />
+      <workItem from="1518756982135" duration="14550000" />
     </task>
     <task id="LOCAL-00001" summary="phpstorm">
       <created>1518757830849</created>
@@ -285,11 +283,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518758409600</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="phpstorm">
+      <created>1518772223247</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1518772223247</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125333000" />
+    <option name="totallyTimeSpent" value="125349000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1010" extended-state="6" />

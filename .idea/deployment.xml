@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData">
+  <component name="PublishConfigData" uploadOnCheckin="56246fe3-8526-4d00-a15c-8859ac89d9b3">
     <serverData>
       <paths name="depot_preprod">
         <serverdata>
@@ -17,5 +17,6 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="depot_preprod" />
   </component>
 </project>

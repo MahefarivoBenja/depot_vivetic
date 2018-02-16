@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6410c335-dded-456a-bbf1-325b55970669" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Home.php" afterPath="$PROJECT_DIR$/application/controllers/Home.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,21 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="depot.js" pinned="true" current-in-tab="true">
+      <file leaf-file-name="depot.js" pinned="true" current-in-tab="false">
         <entry file="remoteDeploymentFS://&lt;56246fe3-8526-4d00-a15c-8859ac89d9b3&gt;/assets/js/custom_js/depot.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+            <state relative-caret-position="120">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Home.php" pinned="true" current-in-tab="false">
+      <file leaf-file-name="Home.php" pinned="true" current-in-tab="true">
         <entry file="remoteDeploymentFS://&lt;56246fe3-8526-4d00-a15c-8859ac89d9b3&gt;/application/controllers/Home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="123" column="31" lean-forward="false" selection-start-line="123" selection-start-column="25" selection-end-line="123" selection-end-column="31" />
+            <state relative-caret-position="1114">
+              <caret line="72" column="46" lean-forward="true" selection-start-line="72" selection-start-column="46" selection-end-line="72" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -151,8 +152,8 @@
         <option value="&lt;56246fe3-8526-4d00-a15c-8859ac89d9b3&gt;/application/models/Theme/Theme_Model.php" />
         <option value="&lt;56246fe3-8526-4d00-a15c-8859ac89d9b3&gt;/application/views/depot/Depot.php" />
         <option value="&lt;56246fe3-8526-4d00-a15c-8859ac89d9b3&gt;/application/models/Home/Home_Model.php" />
-        <option value="&lt;56246fe3-8526-4d00-a15c-8859ac89d9b3&gt;/application/controllers/Home.php" />
         <option value="&lt;56246fe3-8526-4d00-a15c-8859ac89d9b3&gt;/assets/js/custom_js/depot.js" />
+        <option value="&lt;56246fe3-8526-4d00-a15c-8859ac89d9b3&gt;/application/controllers/Home.php" />
       </list>
     </option>
   </component>
@@ -260,7 +261,7 @@
       <workItem from="1518589983463" duration="1745000" />
       <workItem from="1518591889084" duration="20163000" />
       <workItem from="1518672225391" duration="27788000" />
-      <workItem from="1518756982135" duration="14550000" />
+      <workItem from="1518756982135" duration="15354000" />
     </task>
     <task id="LOCAL-00001" summary="phpstorm">
       <created>1518757830849</created>
@@ -294,7 +295,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125349000" />
+    <option name="totallyTimeSpent" value="126153000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1010" extended-state="6" />

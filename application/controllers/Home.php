@@ -62,17 +62,17 @@
             }
             if($this->input->post('comment'))
             {
-                $array_remontee['reponse_do']       = $this->input->post('comment');
-                $array_piecejonte['commentaire']    = $this->input->post('comment');
-                $array_discuss['discussion']        = $this->input->post('comment');
+                $array_remontee['reponse_do']       = pg_escape_string($this->input->post('comment'));
+                $array_piecejonte['commentaire']    = pg_escape_string($this->input->post('comment'));
+                $array_discuss['discussion']        = pg_escape_string($this->input->post('comment'));
             }
             if($this->input->post('detail'))
             {
-                $array_remontee['detail']           = $this->input->post('detail');
+                $array_remontee['detail']           = pg_escape_string($this->input->post('detail'));
             }
             if($this->input->post('quantite'))
             {
-                $array_remontee['quantite']         = $this->input->post('quantite');
+                $array_remontee['quantite']         = pg_escape_string($this->input->post('quantite'));
             }
 
             $ref =  $this->Mhome->get_last_ref((int)$this->input->post('typologie'));
